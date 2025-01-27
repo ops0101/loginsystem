@@ -1,4 +1,4 @@
-let myname="최은혁"
+let myname="김용진"
 let myproject="스프링 WAS 활용한 로그인 시스템"
 
 $(()=>{
