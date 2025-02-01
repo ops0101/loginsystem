@@ -49,13 +49,16 @@ data_sets.push(d1)
 // menu2 =============================================================
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
-//d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
+d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
+d2.set_img(0,{imgtitle:"공통모듈 분리",imgurl:"https://drive.google.com/file/d/1KOOEMd5yuZpc8Tr33umBE-COZEYQhT6F/view?usp=drive_link",imglog:"공통모듈 분리함수",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})
+d2.set_img(0,{imgtitle:"공통모듈 분리2",imgurl:"https://drive.google.com/file/d/1Hii5xiq8zqj9q25IqzZiBG3UAWUGV69N/view?usp=drive_link",imglog:"공통모듈 분리함수2",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})
+
 //d2.set_content("테스트케이스를 작성합니다.")
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(0,{imgtitle:"테스트클래스 생성",imgurl:"https://drive.google.com/file/d/1dDRx1bJWZ1ZiQu8BR8fZV_DcdDP2yeop/view?usp=drive_link",imglog:"테스트 할 클래스를 생성",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
-d2.set_img(0,{imgtitle:"테스트클래스 구현",imgurl:"https://drive.google.com/file/d/1aOrYrmi1WuZ4h3deKFX3o_EaEKrKcKdA/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
-d2.set_img(0,{imgtitle:"테스트데이티구성",imgurl:"https://drive.google.com/file/d/1pQwgbRYbEg3oueF_Rcy21EEDETA0GOp5/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
-d2.set_img(0,{imgtitle:"테스트실행결과",imgurl:"https://drive.google.com/file/d/1cPtuzZyeowTqQ4Wn8qqBTWszJU0fhgQg/view?usp=drive_link",imglog:"",sourceurl:""})
+d2.set_img(1,{imgtitle:"테스트클래스 생성",imgurl:"https://drive.google.com/file/d/1dDRx1bJWZ1ZiQu8BR8fZV_DcdDP2yeop/view?usp=drive_link",imglog:"테스트 할 클래스를 생성",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_img(1,{imgtitle:"테스트클래스 구현",imgurl:"https://drive.google.com/file/d/1aOrYrmi1WuZ4h3deKFX3o_EaEKrKcKdA/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_img(1,{imgtitle:"테스트데이티구성",imgurl:"https://drive.google.com/file/d/1pQwgbRYbEg3oueF_Rcy21EEDETA0GOp5/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/ops0101/loginsystem/blob/main/LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})
+d2.set_img(1,{imgtitle:"테스트실행결과",imgurl:"https://drive.google.com/file/d/1cPtuzZyeowTqQ4Wn8qqBTWszJU0fhgQg/view?usp=drive_link",imglog:"",sourceurl:""})
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
